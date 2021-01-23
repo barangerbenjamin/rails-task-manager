@@ -1,0 +1,7 @@
+<h1>This is the show of the <%= @task.title %></h1>
+
+<%= @task.details %>
+
+<%= link_to 'Delete task', task_path(@task), method: :delete %>
+
+<%= link_to "home", tasks_path %>
